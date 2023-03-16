@@ -59,7 +59,7 @@
 
 #### NHR dataset
 
-1. Download the NHR dataset [here](https://wuminye.github.io/NHR/datasets.html) and process this data for our code. Or someone could download the processed data [here](https://zjueducn-my.sharepoint.com/:f:/g/personal/pengsida_zju_edu_cn/El1HTEodvwhFmnCGo37e1gMBhho9Wh3SvjV5UWG_Z-t8Dw?e=KCpRhl). Note that both ways require to cite [the NHR paper](https://wuminye.github.io/NHR/datasets.html).
+1. Download the NHR dataset at [here](https://wuminye.github.io/NHR/datasets.html) and process this data for our code. Or someone could download the processed data at [here](https://zjueducn-my.sharepoint.com/:f:/g/personal/pengsida_zju_edu_cn/El1HTEodvwhFmnCGo37e1gMBhho9Wh3SvjV5UWG_Z-t8Dw?e=KCpRhl). Note that both ways require to cite [the NHR paper](https://wuminye.github.io/NHR/datasets.html).
 2. Create a soft link:
     ```
     ROOT=/path/to/dymap
