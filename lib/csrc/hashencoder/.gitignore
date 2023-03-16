@@ -1,0 +1,5 @@
+hashencoder.egg-info
+dist/*.egg
+build
+
+
