@@ -13,13 +13,6 @@
         ```pip install lib/csrc/kilonerf_cuda/dist/kilonerf_cuda-0.0.0-cp38-cp38-linux_x86_64.whl```
 
         Option B: Build CUDA extension yourself
-        Install CUDA development kit and restart your bash:  
-        ```
-        wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda_11.1.1_455.32.00_linux.run
-        sudo sh cuda_11.1.1_455.32.00_linux.run
-        echo -e "\nexport PATH=\"/usr/local/cuda/bin:\$PATH\"" >> ~/.bashrc
-        echo "export LD_LIBRARY_PATH=\"/usr/local/cuda/lib64:\$LD_LIBRARY_PATH\"" >> ~/.bashrc
-        ```
 
         Download magma from http://icl.utk.edu/projectsfiles/magma/downloads/magma-2.5.4.tar.gz then build and install to  `/usr/local/magma`
         ```
