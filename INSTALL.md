@@ -1,6 +1,6 @@
 ### Set up the python environment
 * NVIDIA GPU with CUDA 11.3 is required
-* Python>=3.8 (installation via [anaconda](https://www.anaconda.com/distribution/) is recommended, use `conda create -n dymap python=3.8` to create a conda environment and activate it by `conda activate dymap`)
+* Python>=3.8 (installation via [anaconda](https://www.anaconda.com/distribution/) is recommended, use `conda create -n mlp_maps python=3.8` to create a conda environment and activate it by `conda activate mlp_maps`)
 
 * Python libraries
     * Install pytorch by `pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113` 
@@ -45,7 +45,7 @@
 1. **Note that we refine the camera parameters of the ZJU-MoCap dataset.** If someone wants to download the refined ZJU-Mocap dataset, please fill in the [agreement](https://zjueducn-my.sharepoint.com/:b:/g/personal/pengsida_zju_edu_cn/EbPcN8pfushBotHZMdIErWoB39YEI8S8hWK9DFGXr0e99g?e=TTXd0c), and email Sida Peng (pengsida@zju.edu.cn) and cc Xiaowei Zhou (xwzhou@zju.edu.cn) to request the download link.
 2. Create a soft link:
     ```
-    ROOT=/path/to/dymap
+    ROOT=/path/to/mlp_maps
     cd $ROOT/data
     ln -s /path/to/my_zjumocap my_zjumocap
     ```
@@ -55,7 +55,7 @@
 1. Download the NHR dataset at [here](https://wuminye.github.io/NHR/datasets.html) and process this data for our code. Or someone could download the processed data at [here](https://zjueducn-my.sharepoint.com/:f:/g/personal/pengsida_zju_edu_cn/El1HTEodvwhFmnCGo37e1gMBhho9Wh3SvjV5UWG_Z-t8Dw?e=KCpRhl). Note that both ways require to cite [the NHR paper](https://wuminye.github.io/NHR/datasets.html).
 2. Create a soft link:
     ```
-    ROOT=/path/to/dymap
+    ROOT=/path/to/mlp_maps
     cd $ROOT/data
     ln -s /path/to/nhr nhr
     ```
