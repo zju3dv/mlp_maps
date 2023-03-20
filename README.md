@@ -1,6 +1,6 @@
 # Representing Volumetric Videos as Dynamic MLP Maps
 
-### [Project Page](https://zju3dv.github.io/dymap) | [Video](https://www.youtube.com/watch?v=8GjEew-iIOo) | [Paper](https://zjueducn-my.sharepoint.com/:b:/g/personal/pengsida_zju_edu_cn/EZnHPFkQk-hFoFsHps47uxIBTM0F1uuaPBd2sCVfZZ92iA?e=NuaV0M) | [Data](INSTALL.md#zju-mocap-dataset)
+### [Project Page](https://zju3dv.github.io/mlp_maps) | [Video](https://www.youtube.com/watch?v=8GjEew-iIOo) | [Paper](https://zjueducn-my.sharepoint.com/:b:/g/personal/pengsida_zju_edu_cn/EZnHPFkQk-hFoFsHps47uxIBTM0F1uuaPBd2sCVfZZ92iA?e=NuaV0M) | [Data](INSTALL.md#zju-mocap-dataset)
 
 ![teaser](images/teaser.gif)
 
@@ -182,7 +182,7 @@ Take the training on `sequence sport1` as an example.
 If you find this code useful for your research, please use the following BibTeX entry.
 
 ```
-@inproceedings{peng2023dymap,
+@inproceedings{peng2023representing,
   title={Representing Volumetric Videos as Dynamic MLP Maps},
   author={Peng, Sida and Yan, Yunzhi and Shuai, Qing and Bao, Hujun and Zhou, Xiaowei},
   booktitle={CVPR},
