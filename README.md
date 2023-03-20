@@ -1,4 +1,4 @@
-# DyMap: Representing Volumetric Videos as Dynamic MLP Maps
+# Representing Volumetric Videos as Dynamic MLP Maps
 
 ### [Project Page](https://zju3dv.github.io/dymap) | [Video](https://www.youtube.com/watch?v=8GjEew-iIOo) | [Paper](https://zjueducn-my.sharepoint.com/:b:/g/personal/pengsida_zju_edu_cn/EZnHPFkQk-hFoFsHps47uxIBTM0F1uuaPBd2sCVfZZ92iA?e=NuaV0M) | [Data](INSTALL.md#zju-mocap-dataset)
 
