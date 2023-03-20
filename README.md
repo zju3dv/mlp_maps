@@ -4,7 +4,7 @@
 
 ![teaser](images/teaser.gif)
 
-> [DyMap: Representing Volumetric Videos as Dynamic MLP Maps](https://zjueducn-my.sharepoint.com/:b:/g/personal/pengsida_zju_edu_cn/EZnHPFkQk-hFoFsHps47uxIBTM0F1uuaPBd2sCVfZZ92iA?e=NuaV0M)  
+> [Representing Volumetric Videos as Dynamic MLP Maps](https://zjueducn-my.sharepoint.com/:b:/g/personal/pengsida_zju_edu_cn/EZnHPFkQk-hFoFsHps47uxIBTM0F1uuaPBd2sCVfZZ92iA?e=NuaV0M)  
 > Sida Peng*, Yunzhi Yan*, Qing Shuai, Hujun Bao, Xiaowei Zhou (* equal contribution)  
 > CVPR 2023
 
