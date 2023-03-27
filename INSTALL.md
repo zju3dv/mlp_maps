@@ -42,7 +42,7 @@
 
 #### ZJU-Mocap dataset
 
-1. **Note that we refine the camera parameters of the ZJU-MoCap dataset.** If someone wants to download the refined ZJU-Mocap dataset, please fill in the [agreement](https://zjueducn-my.sharepoint.com/:b:/g/personal/pengsida_zju_edu_cn/EbPcN8pfushBotHZMdIErWoB39YEI8S8hWK9DFGXr0e99g?e=TTXd0c), and email Sida Peng (pengsida@zju.edu.cn) and cc Xiaowei Zhou (xwzhou@zju.edu.cn) to request the download link.
+1. **Note that we refine the camera parameters of the ZJU-MoCap dataset.** If someone wants to download the refined ZJU-Mocap dataset, please fill in the [agreement](https://pengsida.net/project_page_assets/files/Refined_ZJU-MoCap_Agreement.pdf), and email Sida Peng (pengsida@zju.edu.cn) and cc Xiaowei Zhou (xwzhou@zju.edu.cn) to request the download link.
 2. Create a soft link:
     ```
     ROOT=/path/to/mlp_maps
