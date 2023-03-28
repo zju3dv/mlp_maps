@@ -139,7 +139,7 @@ novel_view_cfg = dict(
 
 
 grid_cfg = dict(
-    test_dataset_path='lib/datasets/dymap_mesh_dataset.py',
+    test_dataset_path='lib/datasets/dymap_occ_dataset.py',
     renderer_path='lib/networks/renderer/dymap_occ_renderer.py',
     visualizer_path='lib/visualizers/dymap_occ_visualizer.py',
     grid_resolution = [24, 24, 48],
