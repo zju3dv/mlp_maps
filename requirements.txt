@@ -12,6 +12,8 @@ lpips==0.1.4
 rich==12.6.0
 matplotlib==3.5.2
 imageio-ffmpeg==0.4.7
+pymcudes==0.1.4
+trimesh==3.21.3
 
 # gui 
 glfw==2.5.6
