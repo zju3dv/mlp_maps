@@ -121,7 +121,7 @@ class Dataset(data.Dataset):
     def __getitem__(self, index):
         img_path = os.path.join(self.data_root, self.ims[index][0])        
         frame_index = cfg.img_path_to_frame_ind(img_path)
-        latent_index = (frame_index - self.b) // self.s
+        latent_index = (frame_index - cfg.begin_ith_frame) // cfg.frame_interval
         latent_index = min(latent_index, cfg.num_train_frame - 1)
 
         wpts = self.prepare_input(frame_index)
@@ -153,7 +153,7 @@ class Dataset(data.Dataset):
         ret.update(meta)
         
         if cfg.get('use_encoder', False): 
-            fix_latent_index = latent_index
+            fix_latent_index = (frame_index - self.b) // self.s
             fixed_idxs = list(range(fix_latent_index * self.fixed_num_cams, 
                                     (fix_latent_index+1) * self.fixed_num_cams))
             fixedcamimages = np.zeros((3 * self.fixed_num_cams, 512, 512), dtype=np.float32)

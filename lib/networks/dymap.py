@@ -332,12 +332,17 @@ class Network(nn.Module):
         return batch_size_per_network, query_indices, query_weight
 
     def get_latent_vector(self, batch):
-        if cfg.get('use_encoder', False):
-            latent_vector, kldiv_loss = self.latent_vectors(batch['fixedcamimages'])
-            self.kldiv_loss = kldiv_loss
-        else:
+        if cfg.get('fast_render', False):
             latent_index = batch['latent_index']
-            latent_vector = self.latent_vectors(latent_index)
+            latent_vector = self.encodings[latent_index]
+        else:
+            if cfg.get('use_encoder', False):
+                latent_vector, kldiv_loss = self.latent_vectors(batch['fixedcamimages'])
+                self.kldiv_loss = kldiv_loss
+            else:
+                latent_index = batch['latent_index']
+                latent_vector = self.latent_vectors(latent_index)
+                
         return latent_vector
     
     def to_norm(self, wpts, batch):
@@ -352,7 +357,6 @@ class Network(nn.Module):
         if latent_vector is None:
             latent_vector = self.get_latent_vector(batch)
         
-        self.encoding = latent_vector
         params = self.plane_decoder(latent_vector)
 
         return params

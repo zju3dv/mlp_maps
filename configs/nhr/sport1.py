@@ -170,3 +170,14 @@ grid_cfg = dict(
     subgrid_resolution=[5, 5, 5],
     alpha_thres = 5,
 )
+
+mesh_cfg = dict(
+    test_dataset_path='lib/datasets/dymap_occ_dataset.py',
+    renderer_path='lib/networks/renderer/mesh_renderer.py',
+    visualizer_path='lib/visualizers/mesh_visualizer.py',
+    voxel_size = [0.005, 0.005, 0.005],
+    mesh_th = 5,
+    mesh_begin_ith_frame = 0,
+    mesh_num_train_frame = 10,
+    mesh_frame_interval = 10,
+)

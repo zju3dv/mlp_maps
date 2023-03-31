@@ -24,6 +24,8 @@ cfg.trained_model_dir = os.path.join(cfg.trained_model_dir, cfg.task, cfg.exp_na
 cfg.record_dir = os.path.join(cfg.record_dir, cfg.task, cfg.exp_name)
 cfg.result_dir = os.path.join(cfg.result_dir, cfg.task, cfg.exp_name)
 
+if cfg.get('fast_render', False):
+    cfg.renderer_path = 'lib/networks/renderer/dymap_fast_renderer.py'
 if cfg.get('vis_training_view', False):
     cfg.vis_mode = 'training_view'
 if cfg.get('vis_novel_view', False):
@@ -32,8 +34,7 @@ if cfg.get('vis_mesh', False):
     cfg.update(cfg.mesh_cfg)
 if cfg.get('occ_grid', False):
     cfg.update(cfg.grid_cfg)
-if cfg.get('fast_render', False):
-    cfg.renderer_path = 'lib/networks/renderer/dymap_fast_renderer.py'
+
 
 
 dumped_cfg = cfg.to_dict()

@@ -88,6 +88,11 @@ Take the visualization on `sequence 313` as an example.
     ```
     ![time](images/313-video_fixed_view.rgb.gif)
 
+    * Visualize mesh
+    ```
+    python run.py --config configs/zjumocap/dymap_313.py  mode visualize vis_mesh True  fast_render True    
+    ```
+
 </details>
 
  <details> <summary>Training on ZJU-MoCap</summary>
@@ -152,6 +157,11 @@ Take the visualization on `sequence sport1` as an example.
     python run.py --config configs/nhr/sport1.py mode visualize vis_novel_view True fixed_view True fast_render True
     ```
     ![time](images/nhr-video_fixed_view.rgb.gif)
+
+    * Visualize mesh
+    ```
+    python run.py --config configs/nhr/sport1.py mode visualize vis_mesh True  fast_render True    
+    ```
 
 </details>
 
