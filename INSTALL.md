@@ -17,6 +17,7 @@
         Download magma from http://icl.utk.edu/projectsfiles/magma/downloads/magma-2.5.4.tar.gz then build and install to  `/usr/local/magma`
         ```
         sudo apt install gfortran libopenblas-dev
+        sudo apt-get install freeglut3
         wget http://icl.utk.edu/projectsfiles/magma/downloads/magma-2.5.4.tar.gz
         tar -zxvf magma-2.5.4.tar.gz
         cd magma-2.5.4
