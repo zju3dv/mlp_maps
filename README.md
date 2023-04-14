@@ -1,6 +1,6 @@
 # Representing Volumetric Videos as Dynamic MLP Maps
 
-### [Project Page](https://zju3dv.github.io/mlp_maps) | [Video](https://www.youtube.com/watch?v=8GjEew-iIOo) | [Paper](https://zjueducn-my.sharepoint.com/:b:/g/personal/pengsida_zju_edu_cn/EVeIG9ib1NFEuzOYnIGjcTkB-SboSG9lq_NvCz1y-fYl-A?e=btkLWX) | [Data](INSTALL.md#zju-mocap-dataset)
+### [Project Page](https://zju3dv.github.io/mlp_maps) | [Video](https://www.youtube.com/watch?v=8GjEew-iIOo) | [Paper](https://arxiv.org/pdf/2304.06717.pdf) | [Data](INSTALL.md#zju-mocap-dataset)
 
 ![teaser](images/teaser.gif)
 
