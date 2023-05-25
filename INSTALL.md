@@ -34,6 +34,7 @@
         ```
         cd lib/csrc/kilonerf_cuda
         python setup.py develop
+        % Or use this command: TORCH_CUDA_ARCH_LIST="6.0 7.0 7.5 8.0 8.6+PTX" python setup.py develop
         ```
     * Install required packages by `pip install -r requirements.txt` 
 
