@@ -18,7 +18,7 @@ Please see [INSTALL.md](INSTALL.md) for manual installation.
 
  <details> <summary>Interactive rendering on ZJU-MoCap</summary>
 
-Please see [INSTALL.md](INSTALL.md) to download the dataset. We provide the pretrained models at [here](https://zjueducn-my.sharepoint.com/:f:/g/personal/pengsida_zju_edu_cn/EmUQZOYYfRZBiQ6xGpcP1dwBBCrwuB3LjnOKcPsbf4Vfew?e=9CTu4u).
+Please see [INSTALL.md](INSTALL.md) to download the dataset. We provide the pretrained models at [here](https://drive.google.com/drive/folders/1ZRgoBijRRK2ML09P7VPJUXtBHgTSWD4D?usp=sharing).
 
 Take the rendering on `sequence 313` as an example.
 
@@ -32,7 +32,7 @@ Take the rendering on `sequence 313` as an example.
 
  <details> <summary>Interactive rendering on NHR</summary>
 
-Please see [INSTALL.md](INSTALL.md) to download the dataset. We provide the pretrained models at [here](https://zjueducn-my.sharepoint.com/:f:/g/personal/pengsida_zju_edu_cn/EmUQZOYYfRZBiQ6xGpcP1dwBBCrwuB3LjnOKcPsbf4Vfew?e=9CTu4u).
+Please see [INSTALL.md](INSTALL.md) to download the dataset. We provide the pretrained models at [here](https://drive.google.com/drive/folders/1ZRgoBijRRK2ML09P7VPJUXtBHgTSWD4D?usp=sharing).
 
 Take the rendering on `sequence sport1` as an example.
 
@@ -48,7 +48,7 @@ Take the rendering on `sequence sport1` as an example.
 
 Please see [INSTALL.md](INSTALL.md) to download the dataset.
 
-We provide the pretrained models at [here](https://zjueducn-my.sharepoint.com/:f:/g/personal/pengsida_zju_edu_cn/EmUQZOYYfRZBiQ6xGpcP1dwBBCrwuB3LjnOKcPsbf4Vfew?e=9CTu4u).
+We provide the pretrained models at [here](https://drive.google.com/drive/folders/1ZRgoBijRRK2ML09P7VPJUXtBHgTSWD4D?usp=sharing).
 
  <details> <summary>Test on ZJU-MoCap</summary>
 
@@ -119,7 +119,7 @@ Take the training on `sequence 313` as an example.
 ## Run the code on NHR
 Please see [INSTALL.md](INSTALL.md) to download the dataset.
 
-We provide the pretrained models at [here](https://zjueducn-my.sharepoint.com/:f:/g/personal/pengsida_zju_edu_cn/EmUQZOYYfRZBiQ6xGpcP1dwBBCrwuB3LjnOKcPsbf4Vfew?e=9CTu4u).
+We provide the pretrained models at [here](https://drive.google.com/drive/folders/1ZRgoBijRRK2ML09P7VPJUXtBHgTSWD4D?usp=sharing).
 
  <details> <summary>Test on NHR</summary>
 
